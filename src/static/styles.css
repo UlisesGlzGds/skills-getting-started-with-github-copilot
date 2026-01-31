@@ -74,6 +74,55 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Add some spacing for the participants section */
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #eef3fb;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #3949ab;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding: 0;
+  list-style: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background: rgba(198,40,40,0.08);
+}
+
+.no-participants {
+  color: #888;
+  background: none;
+  padding: 0;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
